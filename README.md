@@ -1,8 +1,6 @@
-*************************
-     Phonebook App     
-*************************
+# Phonebook App     
 
-* Making your Python talk to Postgresql
+#### Making your Python talk to Postgresql
 
 In a prior class assignment, we created a basic phonebook app that allowed
 the user to lookup, store, and delete an entry from the phonebook. In that project,
@@ -10,7 +8,7 @@ we used pickle to save the information from previous sessions.
 In this class assignment, our objective instead was to modify the phonebook and make it
 talk to Postgresql.
 
-In order to do that, I first installed PyGreSQL by entering 'pip install PyGreSQL'
+In order to do that, I first installed PyGreSQL by entering 'pip install6 PyGreSQL'
 in the command line. Then in my py file, I connected to a database as such:
 ```
 import pg
